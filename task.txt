@@ -1,0 +1,44 @@
+Javsscript Day-2 task:
+
+Difference Between Window Object And Document Object?
+
+What is Document object:
+   The document object represent the web page that is loaded in the browser. By accessing the document object, we can access element in the HTML pages. with the help
+   of document object we can add dynamic content to our web page. the document object can be accessed with window.document or just document.
+   short definition: document object represent the HTML document loaded in that window.
+   Syntax: document.propertyName
+           document.methodName
+   
+What is Window Object:
+   The window object is topmost object of the DOM hierarchy. it is represent browser window or frame that displays the contents of the web page.
+   short definition: windowe object represent the browser window.
+   Syntax: window.propertyName
+           window.methodName
+
+Difference Between Window Object And Document Object:
+
+Window object:
+1. It represent the window or frame that displays the content of the web page. 
+2. It is bvery first object thet is loaded in the browser.
+3. it is object of the browser.
+4. Global objects, functions, variables of javascript are members of window object.
+5. We can access the window from the window only. i.e. window.window
+6. The window is part of BOM not DOM.
+7. Properties of the window object cannot access by the document object.
+8. Syntax - window.propertyName
+9. window.innerHeight : will return the height of the content area of the browser.
+
+
+Document object:
+1. It represent the html document or web page that is loaded in the browser.
+2. it is loaded inside the window.
+3. it is object of window property.
+4. All the tags, elements with attributes in HTML are part of the document.
+5. We can access the document from a window using the window. i.e. window.object
+6. The documenyt is part of BOM(Browser object model) and DOM.
+7. Properties of the document objects such as title, body, cookies can access by the window object. i.e window.doceument.title
+8. Syntax - doceument.propertyName
+9. document.title : will return the title of the document
+
+
+
